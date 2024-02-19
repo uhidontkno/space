@@ -11,14 +11,14 @@
       div {border:2px outset #444; background-color:white; padding:8px;min-height:100px;width:fit-content;max-width:400px;margin:16px;display:inline-block;}
       hr {border-top:2px dotted black;}
       a:active {background-color:lightskyblue;color:blue;padding-left:6px; padding-right:6px;}
-      img {max-width:72px !important;}
-      li {margin:6px;}
+      img {max-width:72px !important; /* attempt to fix fallback */}
+      li {margin:4px; /* fix firefox 23 */}
     </style>
 </head>
 <body>
     <center>
       <h1>welcome to rare1k's space</h1>
-      <p><font color="red"><strong>warning</strong></font>: external links may not render properly on older browsers.</p>
+      <p><font color="yellow"><strong>warning</strong></font>: external links may not render properly on older browsers.</p>
     </center>
     <grid style="display:inline">
     <div id="info">
@@ -68,10 +68,12 @@
       <h2>links</h2>
       </center>
       <hr>
+                    <ul>
      <li>images: <a href="https://i.rare1k.dev">i.rare1k.dev</a></li>
       <li>GitHub: <a href="https://github.com/uhidontkno">github.com/uhidontkno</a></li>
         <li>discord: <a href="https://rare1k.dev/discord">rare1k.dev/discord</a></li>
          <li>twitter: <a href="https://rare1k.dev/twitter">twitter.com/rare1k1</a></li>
+                        </ul>
     </div>
     </grid>
     <br>
