@@ -8,46 +8,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>rare1k's space</title>
-    <style>
-      html,
-      body {
-        font-family: "Verdana", "Arial", sans-serif;
-        background-color: rgb(21, 110, 199);
-        color: black;
-        font-display: auto;
-      }
-      div {
-        border: 3px outset #888;
-        background-color: white;
-        padding: 8px;
-        min-height: 100px;
-        width: fit-content;
-        max-width: 400px;
-        margin: 16px;
-        display: inline-block;
-      }
-      hr {
-        border-top: 2px dotted black;
-      }
-      a:active {
-        background-color: lightskyblue;
-        color: blue;
-        padding-left: 6px;
-        padding-right: 6px;
-      }
-      img {
-        max-width: 72px !important; /* attempt to fix fallback */
-      }
-      li {
-        margin: 4px; /* fix firefox 23 */
-      }
-    </style>
+    <link rel="stylesheet" href="index.css" />
   </head>
   <body>
     <center>
       <h1>welcome to rare1k's space</h1>
       <p>
-        <font size="4"><strong>warning</strong></font
+        <font size="4.33"><strong>warning</strong></font
         >: external links may not render properly on older browsers.
       </p>
     </center>
@@ -70,6 +37,8 @@
           style="margin-left: 25px"
           alt=""
           loading="lazy"
+          height="50"
+          width="60"
         />
       </div>
       <div id="projects">
@@ -81,16 +50,19 @@
         change
         <br />
         <br />
-        <li>
-          <a href="https://deblok.me">deblok</a> - deblok extends past just your
-          average "web proxy", deblok allows you to stream your favorite apps
-          and games completely for free.
-        </li>
-        <li>
-          <a href="https://github.com/uhidontkno/webwin">webwin</a> - a complete
-          port of windows over to the web browser. uses Tailwind CSS and is
-          specifically tailored FOR developers. this is still in development.
-        </li>
+        <ul>
+          <li>
+            <a href="https://deblok.me">deblok</a> - deblok extends past just
+            your average "web proxy", deblok allows you to stream your favorite
+            apps and games completely for free.
+          </li>
+          <li>
+            <a href="https://github.com/uhidontkno/webwin">webwin</a> - a
+            complete port of windows over to the web browser. uses Tailwind CSS
+            and is specifically tailored FOR developers. this is still in
+            development.
+          </li>
+        </ul>
       </div>
       <div id="friends">
         <center>
@@ -98,16 +70,12 @@
         </center>
         <hr />
         <grid style="display: inline-block">
-          <card
-            style="
-              background-color: #ccc;
-              padding: 4px;
-              margin-right: 4px;
-              display: inline-block;
-            "
-          >
+          <card>
             <img
-              style="height: 64px; width: 64px; border: 2px dashed #666"
+              height="64"
+              width="64"
+              style="height: 64px; width: 64px"
+              class="icon"
               loading="lazy"
               src="https://github.com/uhidontkno.png"
               alt="uhidontkno"
@@ -115,16 +83,12 @@
             <br />
             my cat
           </card>
-          <card
-            style="
-              background-color: #ccc;
-              padding: 4px;
-              margin-right: 4px;
-              display: inline-block;
-            "
-          >
+          <card>
             <img
-              style="height: 64px; width: 64px; border: 2px dashed #666"
+              height="64"
+              width="64"
+              style="height: 64px; width: 64px"
+              class="icon"
               loading="lazy"
               src="https://github.com/fidind3211.png"
               alt="fidind3211"
@@ -132,16 +96,12 @@
             <br />
             Spark
           </card>
-          <card
-            style="
-              background-color: #ccc;
-              padding: 4px;
-              margin-right: 4px;
-              display: inline-block;
-            "
-          >
+          <card>
             <img
-              style="height: 64px; width: 64px; border: 2px dashed #666"
+              style="height: 64px; width: 64px"
+              class="icon"
+              height="64"
+              width="64"
               loading="lazy"
               src="https://github.com/yoloyusof.png"
               alt="yoloyusof"

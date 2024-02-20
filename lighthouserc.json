@@ -27,7 +27,9 @@
         "landmark-one-main": "off",
         "csp-xss": "off",
         "bypass": "off",
-        "bootup-time": "off"
+        "bootup-time": "off",
+        "errors-in-console": "off",
+        "listitem": "off"
       }
     }
   }

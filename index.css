@@ -1,0 +1,42 @@
+html,
+body {
+  font-family: "Verdana", "Arial", sans-serif;
+  background-color: rgb(21, 110, 199);
+  color: white;
+  font-display: auto;
+}
+div {
+  border: 3px outset #888;
+  background-color: white;
+  padding: 8px;
+  min-height: 100px;
+  width: fit-content;
+  max-width: 400px;
+  margin: 16px;
+  display: inline-block;
+  color: black;
+}
+hr {
+  border-top: 2px dotted black;
+}
+a:active {
+  background-color: lightskyblue;
+  color: blue;
+  padding-left: 6px;
+  padding-right: 6px;
+}
+img {
+  max-width: 72px !important; /* attempt to fix fallback */
+}
+li {
+  margin: 4px; /* fix firefox 23 */
+}
+card {
+  background-color: #ccc;
+  padding: 4px;
+  margin-right: 4px;
+  display: inline-block;
+}
+.icon {
+  border: 2px dashed #666;
+}
