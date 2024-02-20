@@ -1,0 +1,23 @@
+{
+  "name": "space",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uhidontkno/space.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/uhidontkno/space/issues"
+  },
+  "homepage": "https://github.com/uhidontkno/space#readme",
+  "dependencies": {
+    "@lhci/cli": "^0.13.0",
+    "tsx": "^4.7.1"
+  }
+}
