@@ -8,7 +8,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>rare1k's space</title>
-    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="index.css" class="theme" />
+    <style>* {transition: all 0.2s;}</style>
   </head>
   <body>
     <center>
@@ -38,7 +39,7 @@
           alt=""
           loading="lazy"
           height="50"
-          width="60"
+          width="58"
         />
       </div>
       <div id="projects">
@@ -151,9 +152,9 @@
         position: relative;
         bottom: 0px;
         left: 0;
-        color: lightskyblue;
+        color: rgb(255, 255, 255);
         padding: 8px;
-        background: rgba(0, 0, 0, 0.5);
+        background: rgba(0, 0, 0, 0.801);
         width: 100%;
       "
     >
@@ -161,7 +162,7 @@
       Compatible & tested with Firefox 23, Chrome 54, IE 8, NCSA Mosaic
 
       <br /><br />
-      <i style="opacity: 0.7"
+      <i style="opacity: 0.85"
         >yusof wants me to credit him bc i'm "copying him"... so here you go.</i
       >
     </p>
@@ -174,5 +175,14 @@
         font-display: swap;
       }
     </style>
+
+<script>
+  setInterval(() => {
+    if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+    document.querySelector('.theme').href = 'dark.css';
+  }
+  },100)
+
+</script>
   </body>
 </html>
