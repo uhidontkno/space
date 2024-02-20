@@ -9,7 +9,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>rare1k's space</title>
     <link rel="stylesheet" href="index.css" class="theme" />
-    <style>* {transition: all 0.2s;}</style>
+    <style>
+    * {transition: all 0.2s, background 0.5s} body {transition:background 0s;}
+    @media screen and (max-width: 670px) {
+  .noblink {min-width:87px;min-height:75px;width:87px;}
+}
+
+    </style>
   </head>
   <body>
     <center>
@@ -37,6 +43,7 @@
           src="noblink.gif"
           style="margin-left: 25px"
           alt=""
+          class="noblink"
           loading="lazy"
           height="50"
           width="58"
@@ -181,7 +188,7 @@
     if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
     document.querySelector('.theme').href = 'dark.css';
   }
-  },100)
+  },200)
 
 </script>
   </body>
